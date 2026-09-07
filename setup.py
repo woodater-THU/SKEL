@@ -29,6 +29,12 @@ setup(
         "skel",
         "smpl"
     ],
+    package_data={
+        "skel.alignment": [
+            "*.yaml",
+            "*.pkl",
+        ],
+    },
     platforms=["any"],
     install_requires=requirements,
 )
